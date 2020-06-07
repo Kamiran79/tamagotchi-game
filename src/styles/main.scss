@@ -8,3 +8,132 @@ body {
     background-color: $yellow;
     @include default-font(40px);
 }
+
+
+#eat1 {
+    position: absolute;
+    top: 8px;
+    left: 16px;  
+    color: brown;
+    border-radius: 20px;
+}
+  
+#play1 {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+      color: brown;
+      border-radius: 20px;
+}
+  
+#sleep1 {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+      color: brown;
+      border-radius: 20px;
+}
+  
+#fight1 {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+      color: brown;
+      border-radius: 20px;
+}
+  
+  
+#app {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+}
+  
+.name1 {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+}
+  
+.healthScore {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+}
+  
+.btn1 {
+      position: absolute;
+      top: 50%;
+      left: 75%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+      border: 1px solid white;
+}
+  
+.btn2 {
+      position: absolute;
+      top: 50%;
+      left: 25%;
+      font-size: 18px;
+      transform: translate(-50%, -50%);
+      border: 1px solid white;
+}
+  
+.squareEat {
+      position: relative;
+      text-align: center;
+      color: white;
+      border: 1px solid #DDDDDD;
+      height: 450px;
+      width: 300px;
+      margin: 10px;
+      padding: 0px;
+      transition: border-radius 1s, background-color 1s;
+      background-color: $greenery;
+      border-radius: 5px;    
+}
+  
+.squarePlay {
+      position: relative;
+      text-align: center;
+      color: white;
+      border: 1px solid #DDDDDD;
+      height: 450px;
+      width: 300px;
+      margin: 10px;
+      padding: 0px;
+      transition: border-radius 1s, background-color 1s;
+      background-color: #FF6F61;
+      border-radius: 5px;    
+}
+  
+.squareMain {
+      height: 100px;
+      width: 100px;
+      background-color: $white;
+}
+  
+.container1 {
+      position: relative;
+      text-align: center;
+      color: white;
+      /* added from pet-addoption css*/
+      border: 1px solid #DDDDDD;
+      height: 450px;
+      width: 300px;
+      margin: 10px;
+      padding: 0px;
+      transition: border-radius 1s, background-color 1s;
+      background-color: red;
+      border-radius: 5px;
+}
+  
+.bottom-left {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+}
