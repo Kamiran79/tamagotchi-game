@@ -1,0 +1,5 @@
+@mixin default-font($fontsize) {
+    color: red;
+    font-size: $fontsize;
+    font-family: fantasy;
+}
