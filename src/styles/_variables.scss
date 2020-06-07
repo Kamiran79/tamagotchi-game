@@ -3,3 +3,12 @@
     font-size: $fontsize;
     font-family: fantasy;
 }
+
+@mixin quad-color($color: getColor) {
+    @if ($color == eat) {
+        color: red;
+    }
+    @if ($color == sleep) {
+        color: blue;
+    }
+}
